@@ -6,7 +6,7 @@
 	/**manage_single_course_posts_columns == 'single_course_posts'  this is a Custom post type**/
 	add_filter('manage_single_course_posts_columns', 'bs_event_table_head');
 	function bs_event_table_head( $defaults ) {
-		$defaults['newsletter_event_venue']  = 'Event Date';
+		$defaults['newsletter_event_venue']  = 'Event Venue';
 		$defaults['ticket_status']    = 'Ticket Status';
 		$defaults['venue']   = 'Venue';
 		$defaults['author'] = 'Added By';
